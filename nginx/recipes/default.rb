@@ -8,7 +8,7 @@ package 'nginx' do
 end
 
 package 'nginx' do
-	action [:enable, :start]
+	action [ :enable, :start ]
 end
 
 cookbook_file "/usr/share/nginx/html/index.html" do
