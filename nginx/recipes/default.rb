@@ -3,11 +3,11 @@ package 'epel-release' do
 	action:install 
 end
 
-package 'ngninx' do
+package 'nginx' do
 	action:install
 end
 
-package 'ngninx' do
+package 'nginx' do
 	action [:enable, :start]
 end
 
