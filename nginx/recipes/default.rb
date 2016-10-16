@@ -1,10 +1,10 @@
 
 package 'epel-release' do 
-	action: install 
+	action:install 
 end
 
 package 'ngninx' do
-	action: install
+	action:install
 end
 
 package 'ngninx' do
