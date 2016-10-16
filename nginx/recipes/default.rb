@@ -1,18 +1,18 @@
 
 package 'epel-release' do 
-	action:install 
+	action :install 
 end
 
 package 'nginx' do
-	action:install
+	action :install
 end
 
 package 'nginx' do
 	action [ :enable, :start ]
 end
 
-cookbook_file "/usr/share/nginx/html/index.html" do
-	source "index.html"
-	mode "0644"
-end
+#cookbook_file "/usr/share/nginx/html/index.html" do
+	#source "index.html"
+	#mode "0644"
+#end
 
